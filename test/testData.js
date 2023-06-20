@@ -851,6 +851,27 @@ var testPoints = [
     ll: [0, 0],
     xy: [0, 12367396.218459858],
   },
+  // Two Point Equidistant
+  {
+    code: '+proj=tpeqd +lat_1=60 +lat_2=65',
+    ll: [0, 0],
+    xy: [-6957468.17, 0],
+  },
+  {
+    code: '+proj=tpeqd +lat_1=60 +lat_2=65',
+    ll: [0, 90],
+    xy: [3061286.00, 0],
+  },
+  {
+    code: '+proj=tpeqd +lat_1=60 +lat_2=65',
+    ll: [40.712778, -74.006111],
+    xy: [-14890241.08, -4259762.67],
+  },
+  {
+    code: '+proj=tpeqd +lat_1=48 +lng_1=9 +lat_2=-2 +lng_2=102',
+    ll: [20, -45],
+    xy: [7566400.46, 1969495.25],
+  },
 ];
 if (typeof module !== 'undefined') {
   module.exports = testPoints;

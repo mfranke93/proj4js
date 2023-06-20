@@ -32,7 +32,8 @@ var projs = [
   'robin',
   'geocent',
   'tpers',
-  'geos'
+  'geos',
+  'tpeqd',
 ];
 module.exports = function (grunt) {
   grunt.initConfig({
