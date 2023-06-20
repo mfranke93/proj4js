@@ -868,7 +868,7 @@ var testPoints = [
     xy: [-14890241.08, -4259762.67],
   },
   {
-    code: '+proj=tpeqd +lat_1=48 +lng_1=9 +lat_2=-2 +lng_2=102',
+    code: '+proj=tpeqd +lat_1=48 +lng_1=9 +lat_2=-2 +lon_2=102',
     ll: [20, -45],
     xy: [7566400.46, 1969495.25],
   },
